@@ -85,7 +85,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  stack_canary_init();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -95,6 +95,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   printf("Hello World!\r\n");
   RobotInit();
+  stack_overflow_test();
   /* USER CODE END 2 */
 
   /* Infinite loop */

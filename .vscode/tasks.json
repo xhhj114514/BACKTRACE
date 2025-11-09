@@ -98,8 +98,8 @@
                 "Remove CMake Cache",
                 "Configure All Projects",
                 "build",
-                "Generate Symbol Table",
-                "build",
+                // "Generate Symbol Table",
+                // "build",
                 "Copy compile_commands"
             ],
 			"command": "openocd",
